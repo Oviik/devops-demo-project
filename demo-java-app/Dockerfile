@@ -1,5 +1,5 @@
 # Base image 
-FROM openjdk
+FROM openjdk:latest
 
 # setting artifact path
 ARG artifact=target/demo-java-app.jar
